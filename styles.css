@@ -178,7 +178,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    justify-items: auto;
+
   }
   
   .team-member {
