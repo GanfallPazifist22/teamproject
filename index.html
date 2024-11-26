@@ -3,94 +3,269 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Download Our Game</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <title>Introvert Tutor</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="image/icons/favicon.ico">
 </head>
 <body>
+
   <!-- Navbar -->
+
   <nav>
+    <nav class="nav-banners">
+      <img src="image/icons/favicon.ico" alt="banner">
+    </nav>
     <ul>
       <li><a href="#header">Home</a></li>
       <li><a href="#features">Features</a></li>
+      <li><a href="#course">Course</a></li>
       <li><a href="#testimonial">Reviews</a></li>
-      <li><a href="#download">Download</a></li>
       <li><a href="https://ganfallpazifist22.github.io/pro-group-about-us/">About Us</a></li>
     </ul>
   </nav>
 
   <!-- Header Section -->
+
+  <div class="slides">
   <header id="header">
     <div class="header-content">
-      <h1>Welcome to the Ultimate Gaming Experience</h1>
-      <p>Download and start playing today!</p>
-      <button onclick="window.location.href='#download'">Download Now</button>
-      <img src="game-banner.jpg" alt="Game Banner">
+        <h1>Welcome to the Introvert Tutor</h1>
+        <p>An online tutor and course website is a digital platform that offers educational resources, including virtual lessons, self-paced courses, and personalized tutoring sessions. It connects learners with subject matter experts through interactive tools like video conferencing, live chat, and downloadable materials. These platforms cater to various fields of study, providing flexible and accessible learning opportunities for students of all levels, often incorporating assessments, progress tracking, and certifications to enhance the learning experience.</p>
+        <button><a href="Registers/register.html">Sign In FREE!</a></button>
+      </div>
+    </header>
+  </div>
+
+  <!-- Why Section -->
+
+  <section id="whys">
+    <h2>Why Choose Us?</h2>
+    <div class="why-container">
+      <div class="why-item">
+        <h3>Easy to Use</h3>
+        <p>Our platform is user-friendly, making learning simple for everyone.</p>
+      </div>
+      <div class="why-item">
+        <h3>Certificate of Completion</h3>
+        <p>Earn a professional certificate after finishing your course.</p>
+      </div>
+      <div class="why-item">
+        <h3>Affordable Pricing</h3>
+        <p>Enjoy high-quality courses at budget-friendly prices.</p>
+      </div>
+      <div class="why-item">
+        <h3>Multiple Languages</h3>
+        <p>Learn in your preferred language with a variety of options.</p>
+      </div>
+      <div class="why-item">
+        <h3>Available Worldwide</h3>
+        <p>Access our courses from anywhere in the world.</p>
+      </div>
+      <div class="why-item">
+        <h3>Open for Everyone</h3>
+        <p>Anyone can create and share their own courses on our platform.</p>
+      </div>
     </div>
-  </header>
+  </section>
 
   <!-- Features Section -->
+
   <section id="features">
-    <h2>Game Features</h2>
+    <h2>Features</h2>
     <div class="feature-container">
       <div class="feature-item">
-        <img src="+++++++++++++++++++++++++++++++++++++++++++" alt="Action">
-        <h3>Exciting Action</h3>
-        <p>Engage in thrilling battles with real-time combat!</p>
+        <i class="fa fa-bar-chart" aria-hidden="true"></i>
+        <img src="image/icons/Quality.png" alt="Quality">
+        <h3>Quality</h3>
+        <p>High-quality courses made simple to navigate for effective learning.</p>
       </div>
       <div class="feature-item">
-        <img src="++++++++++++++++++++++++++++++++++++++++" alt="Multiplayer">
-        <h3>Multiplayer Mode</h3>
-        <p>Play with friends or against players worldwide!</p>
+        <img src="image/icons/ease.png" alt="Easy">
+        <h3>Ease of Use</h3>
+        <p>Intuitive design for an easy and enjoyable learning experience.</p>
       </div>
       <div class="feature-item">
-        <img src="++++++++++++++++++++++++++++++++++++++++" alt="Graphics">
-        <h3>Stunning Graphics</h3>
-        <p>Experience lifelike visuals and stunning environments.</p>
+        <img src="image/icons/global.png" alt="Global">
+        <h3>Global Accessibility</h3>
+        <p>Access courses from anywhere in the world.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Course Section -->
+
+  <section class="courses" id="course">
+    <div class="container swiper">
+      <h2>Course</h2>
+      <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="image/img/developer.jpg" alt="course_img" class="card-image">
+              <h3 class="badge developer">Developer</h3>
+              <p class="card-title">Learn programming, software development, and building digital solutions.</p>
+              <button class="card-button material-symbols-outlined">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="image/img/marketing.jpg" alt="course_img" class="card-image">
+              <h3 class="badge marketing">Marketing</h3>
+              <p class="card-title">Learn market research, branding, digital marketing, and customer engagement.</p>
+              <button class="card-button material-symbols-outlined">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="image/img/investment.jpg" alt="course_img" class="card-image">
+              <h3 class="badge investment">Investment</h3>
+              <p class="card-title">Learn financial strategies, asset management, and risk analysis.</p>
+              <button class="card-button material-symbols-outlined">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="image/img/designer.jpg" alt="course_img" class="card-image">
+              <h3 class="badge designer">Designer</h3>
+              <p class="card-title">Learn creative skills for visual design, user experience, and problem-solving.</p>
+              <button class="card-button material-symbols-outlined">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+          <li class="card-item swiper-slide">
+            <a href="#" class="card-link">
+              <img src="image/img/leader.jpg" alt="course_img" class="card-image">
+              <h3 class="badge leadership">Leadership</h3>
+              <p class="card-title">learn how to inspire and manage teams, make strategic decisions, and drive organizational success.</p>
+              <button class="card-button material-symbols-outlined">
+                arrow_forward
+              </button>
+            </a>
+          </li>
+        </ul>
+        <!-- swiper -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- =========== COMING SOON ============= -->
+  <!-- Deal Section -->
+  <!-- <section id="deals">
+    <h2>Big DEAL</h2>
+    <div class="deal-container">
+      <div class="deal-item">
+        <img src="image/img/img_03.png" alt="bigdeal">
+        <span class="deal-title"><h3>Fullstack course</h3></span>
+        <span class="deal-decription">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Node.js</li>
+            <li>React</li>
+          </ul>
+        </span>
+      </div>
+    </div>
+    <link rel="stylesheet" href="Courses/course.html">
+    <button class="deal-button"><a href="Courses/course.html">Buy now</a></button>
+  </section> -->
+  <!-- ===================================== -->
+
+  <!-- Prices Section -->
+
+  <section id="price-list">
+    <div class="price-container">
+      <h2>Would you like it</h2>
+      <p>Click the button below to join the membership!</p>
+      <div class="pricing-table">
+        <div class="pricing-card">
+          <h3>Trial</h3>
+          <h4>FREE/7Day</h4>
+          <ul>
+            <li><strong>Risk-Free Exploration</strong>: Try courses without commitment.</li>
+            <li><strong>Preview Premium Features</strong>: Experience premium content temporarily.</li>
+            <li><strong>Time to Evaluate</strong>: Test the platform and decide before paying.</li>
+          </ul>
+          <button><a href="button-link">Get Started</a></button>
+        </div>
+
+        <div class="pricing-card active">
+          <h3>Standard Plan</h3>
+          <h4>399 THB/Month</h4>
+          <ul>
+            <li><strong>Affordable</strong>: Budget-friendly access to most courses.</li>
+            <li><strong>Core Features</strong>: Includes course materials, quizzes, and progress tracking.</li>
+            <li><strong>Ongoing Learning</strong>: Continuous access to content at your pace.</li>
+          </ul>
+          <button><a href="button-link">Get Started</a></button>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Premium Plan</h3>
+          <h4>599 THB/Month</h4>
+          <ul>
+            <li><strong>Exclusive Content</strong>: Access to advanced courses and special materials.</li>
+            <li><strong>Expert Instruction</strong>: Live sessions, mentoring, and top-tier instructors.</li>
+            <li><strong>Unlimited Access</strong>: Full access to all courses.</li>
+            <li><strong>Priority Support</strong>: Fast customer service.</li>
+            <li><strong>Certifications</strong>: Earn recognized certificates.</li>
+            <li><strong>Offline Access</strong>: Download courses for offline learning.</li>
+          </ul>
+          <button><a href="button-link">Get Started</a></button>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Testimonial Section -->
+
   <section id="testimonial">
-    <h2>What Players Are Saying</h2>
+    <h2>What Students Are Saying</h2>
     <div class="testimonial-container">
       <div class="testimonial-item">
-        <p>"The best game I've ever played! Non-stop action and incredible graphics." - GamerX</p>
+        <p>"The best website for me." - Susukati</p>
       </div>
       <div class="testimonial-item">
-        <p>"Amazing multiplayer mode. Me and my friends are addicted!" - PlayerOne</p>
+        <p>"Amazing course. Me and my friends is gonna be geniuse!" - Kaliyunai</p>
       </div>
       <div class="testimonial-item">
-        <p>"A must-have game for any action fan. Highly recommend!" - ProGamer</p>
+        <p>"That so GOOD. I got GPA 4.00 OMG !!!" - Matummai</p>
       </div>
     </div>
   </section>
 
-  <!-- Download Section -->
-  <section id="download">
-    <h2>Download Game Now</h2>
-    <p>Click the button below to start your download and join the action!</p>
-    <button class="download-button" onclick="window.location.href='game-download-link'">Download for Windows</button>
-    <button class="download-button" onclick="window.location.href='game-download-link'">Download for Mac</button>
-  </section>
-
-
-
-  <!-- Social Links Section -->
+  
   <section id="social-links">
     <h2>Follow Us</h2>
-    <p>Stay updated on game news and upcoming updates by following us on social media!</p>
+    <p>Stay updated on course news and upcoming updates by following us on social media!</p>
     <div class="social-icons">
-      <a href="https://facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
-      <a href="https://instagram.com" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
-      <a href="https://twitter.com" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
-      <a href="https://youtube.com" target="_blank"><img src="youtube-icon.png" alt="YouTube"></a>
+      <a href="https://facebook.com" target="_blank"><img src="image/icons/facebook.icon.png" alt="Facebook"></a>
+      <a href="https://instagram.com" target="_blank"><img src="image/icons/ig.icon.png" alt="Instagram"></a>
+      <a href="https://youtube.com" target="_blank"><img src="image/icons/youtube.icon.png" alt="YouTube"></a>
     </div>
   </section>
-
+  
   <!-- Footer -->
+  
   <footer>
-    <p>&copy; 2024 Game Studio. All rights reserved.</p>
+    <p>&copy; 2024 Introvert Studio. All rights reserved.</p>
   </footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Social Links Section -->
+     
 </body>
 </html>
